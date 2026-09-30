@@ -66,7 +66,7 @@ const completeTask = (id) => {
 
   const updated = {
     ...task,
-    priority: 'medium',
+    // priority: 'medium',  bug 3 fixed
     status: 'done',
     completedAt: new Date().toISOString(),
   };
